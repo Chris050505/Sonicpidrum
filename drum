@@ -1,0 +1,33 @@
+sample :drum_snare_soft, amp: 3
+sleep 0.15
+sample :drum_snare_soft, amp: 3
+sleep 0.70
+sample :drum_bass_soft, amp: 6
+sleep 0.70
+sample :drum_snare_soft, amp: 3
+sleep 0.15
+sample :drum_snare_soft, amp: 3
+sleep 0.30
+sample :drum_tom_mid_hard, amp: 1
+sleep 0.30
+sample :drum_snare_soft, amp: 3
+sleep 0.20
+sample :drum_snare_soft, amp: 3
+sleep 0.20
+sample :drum_tom_mid_soft, amp: 3
+sample :drum_cymbal_open, amp: 2
+
+
+live_loop :boomboom do
+  sample :drum_cymbal_soft, amp: 0.40
+  sleep 0.5
+end
+live_loop :beenbeen do
+  sample :drum_snare_soft, amp: 0.40
+  sleep 1.5
+end
+
+live_loop :banban do
+  sample :drum_bass_hard, amp: 0.40
+  sleep 1.5
+end
